@@ -1,0 +1,324 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Search box styling */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ce9595;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #777;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .search-box {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-box input {
+        width: 80%;
+    }
+
+    .search-box button {
+        width: auto;
+    }
+}
+.professionalpara{
+    height: 620px;
+    width: 100%;
+    background-image: url(./empty-room-with-green-walls-plants_915002-2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+.professional{
+    height: 100px;
+    width: 340px;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.apo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.pcs{
+    font-size: 55px;
+    width: 500px;
+    margin-left: 30px;
+}
+.callsymbol{
+    height: 15px;
+    width: 18px;
+    margin-top: 4px;
+    margin-right: 6px;
+}
+.call{
+    background: rgb(7, 70, 7);
+    color: white;
+    margin-left: 29px;
+    height: 35px;
+    width: 130px;
+}
+.video{
+    height: 35px;
+    width: 130px;
+    color: rgb(7, 70, 7);
+    background: white;
+    border: none;
+    color: rgb(7, 70, 7);
+    font-weight: bold;
+}
+.videosymbol{
+    height: 15px;
+    width: 18px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.buttons{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.appsname{
+    color: rgb(243, 250, 243);
+    display: flex;
+    font-weight: bolder;
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+    background: rgb(61, 61, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.appsnameall{
+    background: rgb(61, 61, 70);
+}
+.services{
+    color: rgb(7, 70, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
+.perfecteffort{
+    color: rgb(7, 70, 7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.house{
+    color: white;
+    background: rgb(7, 70, 7);
+    border: none;
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+}
+.business{
+    color: rgb(7, 70, 7);
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 80px;
+}
+.ourservices{
+    display: flex;
+    
+    height: 100px;
+    width: 100%;
+}
+.servicespart{
+    margin-left: 92px; 
+}
+.housebusinessbutton{
+    margin-left: 880px;
+    margin-top: 40px;
+}
+.card {
+    width: 260px;
+    height: 220px;
+    background-color: #c7dcc7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(9, 201, 80, 0.599);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 90px;
+}
+
+/* Icon container */
+.card-icon {
+    font-size: 40px;
+    color: #91f3ae;
+    margin-bottom: 15px;
+}
+
+/* Card title */
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(7, 70, 7);
+}
+
+/* Card description */
+.card-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Card button */
+.card-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: rgb(7, 70, 7);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card-btn:hover {
+    background-color: #e84118;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.bathtub{
+    height: 60px;
+    width: 60px;
+}
+.right{
+    height: 10px;
+    width: 30px;
+}
+.cardall{
+    display: flex;
+}
+.arrowdiv{
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.leftarrow{
+    height: 45px;
+    width: 100px;
+}
+.rightarrow{
+    height: 45px;
+    width: 120px;
+}
+.imagesecond{
+    height: 400px;
+    width: 450px;
+    margin-left: 120px;
+}
+.picpara{
+    width: 100%;
+    display: flex;
+}
+.aboutcompany{
+    color: rgb(7, 70, 7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keepinghome{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(7, 70, 7);
+}
+.aboutkeeping{
+    text-align: justify;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 23, 13);
+}
+.aboutcompanyy{
+    margin-left: 400px;
+    margin-top: 60px;
+}
